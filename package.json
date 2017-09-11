@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-starter-github-portfolio",
+  "version": "0.0.1",
+  "description": "Gatsby starter to show your github portfolio",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.8.11",
+    "gatsby-link": "^1.6.16",
+    "gatsby-plugin-preact": "^1.0.10",
+    "gatsby-source-github-api": "^0.0.3",
+    "muicss": "^0.9.25",
+    "preact-compat": "^3.17.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.5",
+    "eslint": "^4.6.1",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "prettier": "^1.6.1"
+  }
+}
