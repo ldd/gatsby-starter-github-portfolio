@@ -9,18 +9,20 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.8.11",
-    "gatsby-link": "^1.6.16",
-    "gatsby-plugin-preact": "^1.0.10",
-    "gatsby-source-github-api": "^0.0.3",
+    "gatsby": "^2.14.0",
+    "gatsby-link": "^2.2.9",
+    "gatsby-plugin-preact": "^3.1.6",
+    "gatsby-source-github-api": "^0.1.1",
     "muicss": "^0.9.25",
-    "preact-compat": "^3.17.0"
+    "preact": "^10.0.0-rc.1"
   },
   "devDependencies": {
     "cross-env": "^5.0.5",
     "eslint": "^4.6.1",
     "eslint-config-prettier": "^2.4.0",
     "eslint-plugin-prettier": "^2.2.0",
-    "prettier": "^1.6.1"
+    "prettier": "^1.6.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
