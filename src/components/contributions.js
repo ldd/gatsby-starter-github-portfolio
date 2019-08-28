@@ -1,4 +1,4 @@
-import React from "preact-compat";
+import React from "preact/compat";
 import { Container, Row } from "muicss/react";
 import Contribution from "./contribution";
 const srcs = [
@@ -8,7 +8,9 @@ const srcs = [
 export default ({ data }) => (
   <Container fluid={true}>
     <Row>
-      {data.map((contribu, i) => <Contribution src={srcs[i]} {...contribu} />)}
+      {data.map((contribu, i) => (
+        <Contribution src={srcs[i]} {...contribu} />
+      ))}
     </Row>
   </Container>
 );

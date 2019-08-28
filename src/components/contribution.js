@@ -1,4 +1,4 @@
-import React from "preact-compat";
+import React from "preact/compat";
 import { Button, Col, Row, Panel } from "muicss/react";
 
 // a contribution component that displays a single contribution you've made

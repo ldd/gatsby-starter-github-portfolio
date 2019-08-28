@@ -1,6 +1,7 @@
-import React from "preact-compat";
+import React from "preact/compat";
 import Main from "../components/main";
 import { parseData } from "../parsers/dataParser";
+import { graphql } from "gatsby";
 
 // our only page is the main component provided with data
 // from the graphQl query's result

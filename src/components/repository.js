@@ -1,4 +1,4 @@
-import React from "preact-compat";
+import React from "preact/compat";
 import { Button, Panel, Col, Row } from "muicss/react";
 
 export default ({ name, url, description, stargazers, readme }) => (

@@ -1,4 +1,4 @@
-import React from "preact-compat";
+import React from "preact/compat";
 import "muicss/dist/css/mui.css";
 import Section from "./section";
 import RecentProjects from "../components/contributions";
