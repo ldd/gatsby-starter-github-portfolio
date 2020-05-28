@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "develop": "env-cmd gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "build": "env-cmd gatsby build",
+    "serve": "env-cmd gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.22.12",
