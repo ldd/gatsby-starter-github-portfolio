@@ -9,12 +9,13 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^2.14.0",
+    "gatsby": "^2.22.12",
     "gatsby-link": "^2.2.9",
-    "gatsby-plugin-preact": "^3.1.6",
+    "gatsby-plugin-preact": "^4.0.0",
     "gatsby-source-github-api": "^0.1.1",
     "muicss": "^0.9.25",
-    "preact": "^10.0.0-rc.1"
+    "preact": "^10.4.4",
+    "preact-render-to-string": "^5.1.8"
   },
   "devDependencies": {
     "cross-env": "^5.0.5",
